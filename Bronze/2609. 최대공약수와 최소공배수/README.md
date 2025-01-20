@@ -1,13 +1,5 @@
 # [Bronze I] 최대공약수와 최소공배수 - 2609
 
-### 문제 링크
-
-[https://www.acmicpc.net/problem/2609](https://www.acmicpc.net/problem/2609)
-
-### 분류
-
-수학(math)
-
 ### 문제 설명
 
 두 개의 자연수를 입력받아 최대 공약수와 최소 공배수를 출력하는 프로그램을 작성하시오.
