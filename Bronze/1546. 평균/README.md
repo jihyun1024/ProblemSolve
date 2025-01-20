@@ -2,7 +2,7 @@
 
 ### 문제 링크
 
-(https://www.acmicpc.net/problem/1546)
+https://www.acmicpc.net/problem/1546
 
 ### 분류
 
