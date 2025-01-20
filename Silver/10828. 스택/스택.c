@@ -53,30 +53,29 @@ int main()
     {
         scanf("%s", str);
         //printf("%s",str);
-		  if(strcmp(str, "push")==0)
-		  {
-		  	scanf("%d", &temp);
-			  push(&stk, temp);
-		  }
-		  else if(strcmp(str, "pop")==0)
-	  	{
-	  		printf("%d\n" , pop(&stk));
-	  	}
-	  	else if(strcmp(str, "size")==0)
-	  	{
-	  		printf("%d\n", stk.size);
-	  	}
-	  	else if(strcmp(str, "empty")==0)
-	  	{
-		  	if(stk.top == -1) printf("1\n");
-		  	else printf("0\n");
-	  	}
-	  	else if(strcmp(str, "top")==0)
-		  {
-			  if(stk.top != -1)
-			  printf("%d\n" , stk.pData[stk.top]);
-			  else printf("%d\n" , stk.top);
-	  	}
+	 if(strcmp(str, "push")==0)
+	{
+		scanf("%d", &temp);
+		push(&stk, temp);
+	}
+	else if(strcmp(str, "pop")==0)
+	{
+	  	printf("%d\n" , pop(&stk));
+	}
+	else if(strcmp(str, "size")==0)
+	{
+		printf("%d\n", stk.size);
+	}
+	else if(strcmp(str, "empty")==0)
+	{
+		if(stk.top == -1) printf("1\n");
+		else printf("0\n");
+	}
+	else if(strcmp(str, "top")==0)
+	{
+		if(stk.top != -1) printf("%d\n" , stk.pData[stk.top]);
+		else printf("%d\n" , stk.top);
+	}
     }
      free(stk.pData);
     return 0;
