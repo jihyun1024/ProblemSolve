@@ -1,6 +1,8 @@
 # [Bronze I] 단어 공부 - 1157
 
-[문제 링크] (https://www.acmicpc.net/problem/1157)
+### 문제 링크
+
+https://www.acmicpc.net/problem/1157
 
 ### 분류
 
