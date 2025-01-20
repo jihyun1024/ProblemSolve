@@ -4,26 +4,29 @@
 
 다음 소스는 N번째 피보나치 수를 구하는 C++ 함수이다.
 
-int fibonacci(int n) {
+{
 
-    if (n == 0) {
+    int fibonacci(int n) {
+
+        if (n == 0) {
     
-        printf("0");
+            printf("0");
+            
+            return 0;
         
-        return 0;
-        
-    } else if (n == 1) {
+        } else if (n == 1) {
     
-        printf("1");
+            printf("1");
         
-        return 1;
+            return 1;
         
-    } else {
+        } else {
     
-        return fibonacci(n‐1) + fibonacci(n‐2);
+            return fibonacci(n‐1) + fibonacci(n‐2);
+            
+        }
         
     }
-    
 }
 
 fibonacci(3)을 호출하면 다음과 같은 일이 일어난다.
