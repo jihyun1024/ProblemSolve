@@ -4,6 +4,10 @@
 
 https://www.acmicpc.net/problem/10798
 
+### 분류
+
+구현(implementation), 문자열(string)
+
 ### 문제 설명
 
 아직 글을 모르는 영석이가 벽에 걸린 칠판에 자석이 붙어있는 글자들을 붙이는 장난감을 가지고 놀고 있다. 
